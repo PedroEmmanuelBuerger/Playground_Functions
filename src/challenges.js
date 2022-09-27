@@ -1,6 +1,6 @@
 // Desafio 1
 function compareTrue(param1, param2) {
-  if (param1 == true && param2 == true) {
+  if (param1 === true && param2 === true) {
     return true;
   }
   return false;
@@ -17,7 +17,7 @@ function splitSentence(string) {
 }
 
 // Desafio 4
-function concatName() {
+function concatName(array) {
 
 }
 
