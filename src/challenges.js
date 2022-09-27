@@ -30,7 +30,7 @@ function footballPoints(wins, ties) {
   for (let index2 = 0; index2 <= ties - 1; index2 = index2 + 1) {
     winPoints = winPoints + 1
   }
-  return winPoints
+  return winPoints;
 }
 
 // Desafio 6
@@ -50,10 +50,11 @@ function highestCount(arraynumbers) {
 
 
 // Desafio 7
+// fonte --> https://www.w3schools.com/jsref/jsref_abs.asp
 function catAndMouse(mouse, cat1, cat2) {
   let distancia1 = mouse - cat1;
   let distancia2 = mouse - cat2;
-  if (mouse - cat1 === mouse - cat2) { return 'os gatos trombam e o rato foge' }
+  if (Math.abs(distancia1) === Math.abs(distancia2)) { return 'os gatos trombam e o rato foge' }
   else if (distancia2 > distancia1) {
     return 'cat2'
   }
@@ -83,45 +84,45 @@ function fizzBuzz(numbers) {
 // Desafio 9
 function encode(strings) {
   palavra = ''
-for (let index = 0; index <= strings.length -1; index = index + 1){
-if (strings[index] == 'a'){
-palavra = palavra + '1'
-}
-else if (strings[index] == 'e'){
-palavra = palavra + '2'
-}
-else if (strings[index] == 'i'){
-palavra = palavra + '3'
-}
-else if (strings[index] == 'o'){
-palavra = palavra + '4'
-}
-else if (strings[index] == 'u'){
-palavra = palavra + '5'
-}
-else palavra = palavra + strings[index]
-}
-return palavra
+  for (let index = 0; index <= strings.length - 1; index = index + 1) {
+    if (strings[index] == 'a') {
+      palavra = palavra + '1'
+    }
+    else if (strings[index] == 'e') {
+      palavra = palavra + '2'
+    }
+    else if (strings[index] == 'i') {
+      palavra = palavra + '3'
+    }
+    else if (strings[index] == 'o') {
+      palavra = palavra + '4'
+    }
+    else if (strings[index] == 'u') {
+      palavra = palavra + '5'
+    }
+    else palavra = palavra + strings[index]
+  }
+  return palavra
 }
 function decode(strings) {
   palavra = ''
   for (let index = 0; index <= strings.length - 1; index = index + 1) {
-      if (strings[index] == 1) {
-          palavra = palavra + 'a'
-      }
-      else if (strings[index] == 2) {
-          palavra = palavra + 'e'
-      }
-      else if (strings[index] == 3) {
-          palavra = palavra + 'i'
-      }
-      else if (strings[index] == 4) {
-          palavra = palavra + 'o'
-      }
-      else if (strings[index] == 5) {
-          palavra = palavra + 'u'
-      }
-      else palavra = palavra + strings[index]
+    if (strings[index] == 1) {
+      palavra = palavra + 'a'
+    }
+    else if (strings[index] == 2) {
+      palavra = palavra + 'e'
+    }
+    else if (strings[index] == 3) {
+      palavra = palavra + 'i'
+    }
+    else if (strings[index] == 4) {
+      palavra = palavra + 'o'
+    }
+    else if (strings[index] == 5) {
+      palavra = palavra + 'u'
+    }
+    else palavra = palavra + strings[index]
   }
   return palavra
 }
