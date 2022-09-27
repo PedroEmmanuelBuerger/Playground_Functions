@@ -81,11 +81,49 @@ function fizzBuzz(numbers) {
 }
 
 // Desafio 9
-function encode() {
-  // seu código aqui
+function encode(strings) {
+  palavra = ''
+for (let index = 0; index <= strings.length -1; index = index + 1){
+if (strings[index] == 'a'){
+palavra = palavra + '1'
 }
-function decode() {
-  // seu código aqui
+else if (strings[index] == 'e'){
+palavra = palavra + '2'
+}
+else if (strings[index] == 'i'){
+palavra = palavra + '3'
+}
+else if (strings[index] == 'o'){
+palavra = palavra + '4'
+}
+else if (strings[index] == 'u'){
+palavra = palavra + '5'
+}
+else palavra = palavra + strings[index]
+}
+return palavra
+}
+function decode(strings) {
+  palavra = ''
+  for (let index = 0; index <= strings.length - 1; index = index + 1) {
+      if (strings[index] == 1) {
+          palavra = palavra + 'a'
+      }
+      else if (strings[index] == 2) {
+          palavra = palavra + 'e'
+      }
+      else if (strings[index] == 3) {
+          palavra = palavra + 'i'
+      }
+      else if (strings[index] == 4) {
+          palavra = palavra + 'o'
+      }
+      else if (strings[index] == 5) {
+          palavra = palavra + 'u'
+      }
+      else palavra = palavra + strings[index]
+  }
+  return palavra
 }
 
 // Desafio 10
