@@ -1,24 +1,29 @@
 # Playground Functions
 
-O Playground Functions é um projeto desenvolvido para praticar e explorar diferentes funções e conceitos de programação. O objetivo é criar um ambiente de aprendizado interativo onde os usuários podem experimentar e testar diferentes funções JavaScript.
+Playground Functions is a project developed to practice and explore different functions and programming concepts. The goal is to create an interactive learning environment where users can experiment and test different JavaScript functions.
 
-## Funcionalidades
-O projeto possui as seguintes funcionalidades:
+## Features
 
-- Funções pré-implementadas: o Playground Functions já inclui uma série de funções pré-implementadas que abordam diferentes conceitos e desafios de programação.
+The project includes the following features:
 
-## Tecnologias Utilizadas
-O projeto foi desenvolvido utilizando as seguintes tecnologias:
+- **Pre-implemented Functions**: Playground Functions already includes a series of pre-implemented functions that address different programming concepts and challenges.
 
-- JavaScript
-- HTML
-- CSS
+## Technologies Used
 
-## Instalação
-O Playground Functions é um projeto para meu aprimoramento em logica javascript não possui instalação, apenas algumas funções que realizam certas lógicas.
+The project was developed using the following technologies:
 
-## Principais Aprendizados
-pude começar a aplicar lógica de programação em javascript, manipulado dado em variaveis, utilizando funções entre outros conceitos basicos e fundamentais.
+- **JavaScript**
+- **HTML**
+- **CSS**
 
-## Conclusão
-apesar de ser um projeto pequeno e de pouca substancia, ele foi essencial para meu desenvolvimento inicial no mundo de desenvolvedor javascript!
+## Installation
+
+Playground Functions is a project for my improvement in JavaScript logic and does not require installation, only includes some functions that perform certain logics.
+
+## Key Learnings
+
+I was able to start applying programming logic in JavaScript, manipulating data in variables, using functions, and other basic and fundamental concepts.
+
+## Conclusion
+
+Although it is a small project with little substance, it was essential for my initial development in the world of JavaScript development!
